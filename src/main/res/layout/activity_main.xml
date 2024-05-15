@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#756863"
+       >
+    <Space android:layout_width="match_parent"
+           android:layout_height="40dp"/>
+    <TextView
+            android:text="Welcome to Pitom and Ramses app!!"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:textSize="35dp"
+            android:textColor="#E80D0D"
+            android:layout_width="296dp"
+            android:layout_height="131dp"
+            android:id="@+id/textView"/>
+    <Space android:layout_width="match_parent"
+           android:layout_height="100dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="Please type number of workers"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editTextNumber"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="Please type number of destroyers"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editTextNumber2"/>
+    <Space android:layout_width="match_parent"
+           android:layout_height="200dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textSize="30dp"
+            android:id="@+id/start"
+            android:layout_gravity="center"
+            android:backgroundTint="#E80D0D"/>
+
+
+
+</LinearLayout>
+
