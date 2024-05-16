@@ -1,5 +1,4 @@
-//Name: Shilat Tzur
-//ID: 213660210
+
 package com.example.pitom_and_ramses;
 
 import android.content.Intent;
