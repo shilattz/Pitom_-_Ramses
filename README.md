@@ -1,6 +1,6 @@
 Custom View + Threads
 
-In this project we will implement the application "Pithom and Ramses" 😊 in which a situation of workers trying to build a building while others are trying to destroy it is simulated ☹.
+In this project we implement the application "Pithom and Ramses" 😊 in which a situation of workers trying to build a building while others are trying to destroy it is simulated ☹.
 Every worker/destroyer is a walker. who tries to add/remove a stone from the building.
 
 In order to avoid synchronization problems, we will need a supervisor (monitor) who will have to help make sure that there is no simultaneous access to the building. And he will have to put the workers to sleep when the building is ready (the destroyers haven't had time to destroy yet) or put the destroyers to sleep when there is nothing left to destroy. (And of course also wake them up at some point..)
